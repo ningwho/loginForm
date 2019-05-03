@@ -1,0 +1,52 @@
+.App {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    height: 22px;
+  }
+  
+  input {
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #777;
+  }
+  
+  h1.location {
+    color: red;
+  }
+   
+  button {
+    padding: 20px 35px;
+    font-size: 18px;
+    background-color: #427df4;
+    color: white;
+    border: 1px solid #427df4;
+    background-color: 250ms;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #c6dcff;
+    color: #427df4;
+  }
